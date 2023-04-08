@@ -225,6 +225,8 @@ int main(){
         cin >> num9;
         printf("Enter the tenth mark > ");
         cin >> num10;
+        printf("Enter your eleventh mark > ");
+        cin >> num11;
         int calc = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10+num11;
         int result = calc/11;
         cout << "Your mark is " << result << "%";
