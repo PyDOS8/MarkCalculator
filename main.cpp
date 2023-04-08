@@ -217,7 +217,16 @@ int main(){
         cin >> num5;
         printf("Enter the sixth mark > ");
         cin >> num6;
-        printf("Enter the ninth number > ");
+        printf("Enter the seventh mark > ");
         cin >> num7;
+        printf("Enter the eigth mark > ");
+        cin >> num8;
+        printf("Enter the ninth mark > ");
+        cin >> num9;
+        printf("Enter the tenth mark > ");
+        cin >> num10;
+        int calc = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10+num11;
+        int result = calc/11;
+        cout << "Your mark is " << result << "%";
     }
 }
