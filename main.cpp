@@ -84,5 +84,26 @@ int main(){
         main();
     }
     if(amount == 6){
-     
+        int mark1;
+        int mark2;
+        int mark3;
+        int mark4;
+        int mark5;
+        int mark6;
+        printf("What is your first mark? ");
+        cin >> mark1;
+        printf("What is your second mark? ");
+        cin >> mark2;
+        printf("What is your third mark? ");
+        cin >> mark3;
+        printf("What is your fourth mark? ");
+        cin >> mark4;
+        printf("What is your fifth mark?");
+        cin >> mark5;
+        printf("What is your sixth mark? ");
+        cin >> mark6;
+        int calc = mark1+mark2+mark3+mark4+mark5;
+        int result = calc/6;
+        cout << "Your mark is " << result;
+    }
 }
