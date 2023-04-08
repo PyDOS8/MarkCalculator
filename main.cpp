@@ -208,7 +208,7 @@ int main(){
         printf("Enter the first mark ");
         cin >> num1;
         printf("Enter the second mark ");
-        cun >> num2;
+        cin >> num2;
         printf("Enter the third mark > ");
         cin >> num3;
         prntf("Enter the fourth mark > ");
