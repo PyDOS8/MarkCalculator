@@ -13,7 +13,8 @@ int main(){
         cin >> right;
         int calc = questions/right;
         int ans = calc*100;
-        cout << "The result is " << ceil(ans) << endl;
+        cout << "The result not rounded is "<< ans;
+        cout << "The result is " << ceil(ans)<< endl;
         cout << "Here's how you calculate it: 1000(questions correct)/1100(amount of questions)*100 =91%";
         main();
     }
