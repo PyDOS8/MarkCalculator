@@ -205,5 +205,19 @@ int main(){
     }
     if(result == 11){
         int num1,num2,num3, num4,num5,num6,num7,num8,num9,num10,num11;
+        printf("Enter the first mark ");
+        cin >> num1;
+        printf("Enter the second mark ");
+        cun >> num2;
+        printf("Enter the third mark > ");
+        cin >> num3;
+        prntf("Enter the fourth mark > ");
+        cin >> num4;
+        printf("Enter the fifth number > ");
+        cin >> num5;
+        printf("Enter the sixth mark > ");
+        cin >> num6;
+        printf("Enter the ninth number > ");
+        cin >> num7;
     }
 }
