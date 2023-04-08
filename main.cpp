@@ -106,6 +106,7 @@ int main(){
         int calc = mark1+mark2+mark3+mark4+mark5;
         int result = calc/6;
         cout << "Your mark is " << result;
+        main();
     }
     if(amount == 7){
         int mark1;
