@@ -130,6 +130,7 @@ int main(){
         int calc = mark1+mark2+mark3+mark4+mark5+mark6:
         int result = calc/6;
         cout << "Your mark is " << result;
+        main();
     }
     if(amount == 8){
         int mark1,mark2,mark3,mark4,mark5,mark6,mark7,mark8;
@@ -152,6 +153,7 @@ int main(){
         int calc = mark1+mark2+mark3+mark4+mark5+mark6+mark7+mark8;
         int result = calc/8;
         cout << result;
+        main();
     }
     if(amount == 9){
         int mark1,mark2,mark3,mark4,mark5,mark6,mark7,mark8,mark9;
@@ -176,6 +178,7 @@ int main(){
         int calc = mark1+mark2+mark3+mark4+mark5+mark6+mark7+mark8+mark9;
         int result = calc/9;
         cout << "Your mark is " << result << "%";
+        main();
     }
     if(result == 10){
         int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10;
@@ -202,6 +205,7 @@ int main(){
         int calc = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10;
         int result = calc/10;
         cout << "Your mark is " << result <<  "%";
+        main();
     }
     if(result == 11){
         int num1,num2,num3, num4,num5,num6,num7,num8,num9,num10,num11;
@@ -230,5 +234,103 @@ int main(){
         int calc = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10+num11;
         int result = calc/11;
         cout << "Your mark is " << result << "%";
+        main();
+    }
+    if(result == 12){
+        int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12;
+        printf("What is your first mark? ");
+        cin >> num1;
+        printf("What is your second mark? ");
+        cin >> num2;
+        printf("Enter your third mark ");
+        cin >> num3;
+        printf("Enter your fourth mark ");
+        cin >> nim4;
+        printf("Enter your fifth mark ");
+        cin >> num5;
+        printf("Enter your sixth mark ");
+        cin >> num6;
+        printf("Enter your seventh mark ");
+        cin >> num7;
+        printf("Enter your eigth mark ");
+        cin >> num8;
+        printf("Enter your ninth mark ");
+        cin >> num9;
+        printf("Enter your tenth mark ");
+        cin >> num10;
+        printf("Enter your eleventh mark ");
+        cin >> num11;
+        printf("Enter your twelfth mark ");
+        cin >> num12;
+        int calc = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10+num11+num12;
+        int result = calc/12;
+        cout << "Your mark is " << result << "%";
+        main();
+    }
+    if(result == 13){
+        int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12,num13;
+        printf("Enter your first mark ");
+        cin >> num1;
+        printf("Enter your second mark ");
+        cin >> num2;
+        printf("Enter your third mark ");
+        cin >> num3;
+        printf("Enter your fourth mark ");
+        cin >> num4;
+        printf("Enter your fifth mark ");
+        cin >> num5;
+        printf("Enter your sixth mark ");
+        cin >> num6;
+        printf("Enter your seventh mark ");
+        cin >> num7;
+        printf("Enter your eigth mark ");
+        cin >> num8;
+        printf("Enter your ninth mark ");
+        cin >> num9;
+        printf("Enter your tenth mark ");
+        cin >> num10;
+        printf("Enter your eleventh mark ");
+        cin >> num11;
+        printf("Enter your twelfth mark ");
+        cin >> num12;
+        printf("Enter your thirteenth mark ");
+        cin >> num13;
+        int calc = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10+num11+num12+num13;
+        int result = calc/13;
+        cout << "Your mark is " << calc << "%";
+    }
+    if(result == 14){
+        int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12,num13,num14;
+        printf("Enter your first mark > ");
+        cin >> num1;
+        printf("Enter your second mark > ");
+        cin >> num2;
+        printf("Enter your third mark > ");
+        cin >> num3;
+        printf("Enter your fourth mark > ");
+        cin >> num4;
+        printf("Enter your fifth mark > ");
+        cin >> num5;
+        printf("Enter your sixth mark > ");
+        cin >> num6;
+        printf("Enter your seventh mark > ");
+        cin >> num7;
+        printf("Enter your eigth mark > ");
+        cin >> num8;
+        printf("Enter your ninth mark > ");
+        cin >> num9;
+        printf("Enter your tenth mark > ");
+        cin >> num10;
+        printf("Enter your eleventh mark > ");
+        cin >> num11;
+        printf("Enter your twelfth mark > ");
+        cin >> num12;
+        printf("Enter your thirteenth mark > ");
+        cin >> num13;
+        printf("Enter your fourteenth mark > ");
+        cin >> num14;
+        int result = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10+num11+num12+num13+num14;
+        int calc = result/14;
+        cout << "Your mark is " << calc << "%";
     }
 }
