@@ -339,4 +339,38 @@ int main(){
     }
     if(amount == 15){
         int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12,num13,num14,num15;
+        printf("Enter your first mark > "):
+        cin >> num1;
+        printf("Enter your second mark > ");
+        cin >> num2;
+        printf("Enter your third mark > ");
+        cin >> num3;
+        printf("Enter your fourth mark > ");
+        cin >> num4;
+        printf("Enter your fifth mark > ");
+        cin >> num5;
+        printf("Enter your sixth mark > ");
+        cin >> num6;
+        printf("Enter your seventh mark > ");
+        cin >> num7;
+        printf("Enter your eighth mark > ");
+        cin >> num8;
+        printf("Enter your ninth mark > ");
+        cin >> num9;
+        printf("Enter your tenth mark > ");
+        cn >> num10;
+        printf("Enter your eleventh mark > ");
+        cin >> num11;
+        printf("Enter your twelfth mark > ");
+        cin >> num12;
+        printf("Enter your thirteenth mark > ");
+        cin >> num13;
+        printf("Enter your fourteenth mark > ");
+        cin >> num14;
+        printf("Enter your fifteenth mark > ");
+        cin >> num15;
+        int calc = num1+num2+num3+num4+num5+num6+num7+num8+num9+num10+num11+num12+num13+num14+num15;
+        int result = calc/15;
+        cout << "Your mark is " << result << "%" << endl;
+    }
 }
