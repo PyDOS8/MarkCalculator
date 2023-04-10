@@ -337,4 +337,6 @@ int main(){
         int calc = result/14;
         cout << "Your mark is " << calc << "%";
     }
+    if(amount == 15){
+        int num1,num2,num3,num4,num5,num6,num7,num8,num9,num10,num11,num12,num13,num14,num15;
 }
