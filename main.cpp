@@ -5,13 +5,13 @@ int main(){
     printf("How many tests are you calculating? ");
     cin >> amount;
     if(amount == 1){
-        float right;
-        float questions;
+        int right;
+        int questions;
         printf("How many questions were there? ");
         cin >> questions;
         printf("How many did you get right? ");
         cin >> right;
-        int calc = right/questions*100;
+        int calc = (double)right/(double)questions*100;
         cout << "The result is "<< calc << endl;
         cout << "Here's how you calculate it: 1000(questions correct)/1100(amount of questions)*100 =91%" << endl;
         main();
@@ -23,7 +23,7 @@ int main(){
         cin >> mark1;
         printf("What is your second mark?");
         cin >> mark2;
-        int calc = mark1+mark2;
+        int calc = (double)mark1+(double)num2;
         int result = calc/2;
         cout << "The result is " << result;
         main();
@@ -38,7 +38,7 @@ int main(){
         cin >> mark2;
         printf("What is the third mark?");
         cin >> mark3;
-        int calc = mark+mark2+mark3;
+        int calc = (double)mark+(double)mark2+(double)mark3;
         int result = calc/3;
         cout << "Your mark is " << result << "%";
         main();
