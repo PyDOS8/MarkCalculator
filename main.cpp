@@ -5,8 +5,8 @@ int main(){
     printf("How many tests are you calculating? ");
     cin >> amount;
     if(amount == 1){
-        int right;
-        int questions;
+        float right;
+        float questions;
         printf("How many questions were there? ");
         cin >> questions;
         printf("How many did you get right? ");
