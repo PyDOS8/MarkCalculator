@@ -56,7 +56,7 @@ int main(){
      cin >> mark3;
      printf("Enter your fourth mark > ");
      cin >> mark4;
-     int calc = mark1+mark2+mark3+mark4;
+     int calc (double) mark1+(double) mark2+ (double) mark3+ (double) mark4;
      int result = calc/4;
      cout << "Your mark is " << result << "%";
      main();
