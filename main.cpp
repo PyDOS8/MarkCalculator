@@ -11,7 +11,7 @@ int main(){
         cin >> questions;
         printf("How many did you get right? ");
         cin >> right;
-        int calc = right/questions*100;
+        int calc = (double)right/questions*100;
         cout << "The result is "<< calc << endl;
         cout << "Here's how you calculate it: 1000(questions correct)/1100(amount of questions)*100 =91%" << endl;
         main();
