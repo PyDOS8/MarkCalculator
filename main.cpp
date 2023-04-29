@@ -14,6 +14,7 @@ int main(){
         int calc = (double)right/(double)questions*100;
         cout << "The result is "<< calc << endl;
         cout << "Here's how you calculate it: 1000(questions correct)/1100(amount of questions)*100 =91%" << endl;
+        cout << "Another Example: 123/400*100 = 30.75 rounded = 31%" << endl;
         main();
     }
     if(amount == 2){
