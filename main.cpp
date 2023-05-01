@@ -2,7 +2,11 @@
 #include <string>
 using namespace std;
 // function to get the grade point value for a letter grade.
-double gpa(){
+double gpa(char letterGrade){
+    switch(letterGrade){
+        case "A":
+           return 4.0;
+    }
 }
 int main(){
     int amount;
