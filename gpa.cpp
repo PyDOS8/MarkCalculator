@@ -1,4 +1,4 @@
-// function to get the grade point value for a letter grade.
+// function to get the grde point value for a letter grade.
 double gpa(char letterGrade){
     switch(letterGrade){
         case "A":
