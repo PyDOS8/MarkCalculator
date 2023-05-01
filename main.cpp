@@ -1,13 +1,7 @@
 #include <iostream>
 #include <string>
+#include "gpa.h";
 using namespace std;
-// function to get the grade point value for a letter grade.
-double gpa(char letterGrade){
-    switch(letterGrade){
-        case "A":
-           return 4.0;
-    }
-}
 int main(){
     int amount;
     printf("How many tests are you calculating? ");
