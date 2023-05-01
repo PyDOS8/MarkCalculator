@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
     int amount;
-    printf("How many tests are you calculating? ");
+    printf("How many tests are you calculating? or Calculate gpa (16) ");
     cin >> amount;
     if(amount == 1){
         int right;
@@ -375,5 +375,8 @@ int main(){
         double result = calc/15*100;
         cout << "Your mark is " << result << endl;
         main();
+    }
+    if(amount == 16){
+        gpa.main();
     }
 }
