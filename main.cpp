@@ -1,5 +1,9 @@
 #include <iostream>
+#include <string>
 using namespace std;
+// function to get the grade point value for a letter grade.
+double gpa(){
+}
 int main(){
     int amount;
     printf("How many tests are you calculating? ");
