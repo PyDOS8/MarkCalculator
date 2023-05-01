@@ -1,6 +1,5 @@
 #include <iostream>
 #include <string>
-#include "gpa.h";
 using namespace std;
 int main(){
     int amount;
@@ -375,8 +374,5 @@ int main(){
         double result = calc/15*100;
         cout << "Your mark is " << result << endl;
         main();
-    }
-    if(amount == 16){
-        gpa.main();
     }
 }
