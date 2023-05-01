@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "gpa.h"
 using namespace std;
 int main(){
     int amount;
