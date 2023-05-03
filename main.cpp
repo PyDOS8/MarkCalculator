@@ -376,4 +376,7 @@ int main(){
         cout << "Your mark is " << result << endl;
         main();
     }
+    if((amount == 16){
+        gpa.gpa();
+    }
 }
