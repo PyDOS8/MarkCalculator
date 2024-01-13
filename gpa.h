@@ -10,7 +10,7 @@ double gpa(char letterGrade){
         case "D":
           return 1.0;
         default:
-          rerurn 0.0;
+          return 0.0;
     }
 }
 
